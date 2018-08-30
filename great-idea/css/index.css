@@ -68,13 +68,13 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 0 auto;
-	max-width: 1000px;
+	max-width: 877px;
 }
 
 .container .header-content{
 	border-bottom: 1px solid black;
 	margin-bottom: 50px;
-	max-width: 90%;
+	max-width: 115%;
 }
 
 .container header {
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5 {
 .container .top-content {
 	display: flex;
 	margin-bottom: 50px;
-	width: 100%;
+	width: 124%;
 }
 
 .container .top-content .text-content {
@@ -154,16 +154,42 @@ h1, h2, h3, h4, h5 {
 }
 
 .container .bottom-content .text-content {
-	margin-right: 100px;
+	margin-right: 29px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .container .bottom-content {
-	margin-top: 60px;
+	margin: 60px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
 	display: flex;
+	width: 111%;
 
 }
 
 
+.container .middle-img {
+	width: 111%;
+
+}
+
+.container .main-content {
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+}
+
+.container .contact {
+	margin-bottom: 60px;
+}
+
+.container footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
 
 
 /* Services start here */
